@@ -23,6 +23,7 @@
 <!--     <script src="/script.js" defer></script> -->
   </head>
   <body>
+    <div class="parallax-small"></div>
     <div class="head-wrapper">
       <h1>Scoobert Doobert</h1>
       <div class="navbar">
@@ -67,11 +68,14 @@
       </div> -->
       </div>
     </div>
+    <div class="parallax"></div>
 
-    <h2>
-      Videos
-    </h2>
-    <div class="videos">
+    <div >
+      <h2 id="video-header">
+        Videos
+      </h2>
+    </div>
+    <div class="videos" id="videos">
       <h3>
         COVER: Hologram (ホログラム) [M/V] - Nico Touches The Walls (Full Metal
         Alchemist Brotherhood)
@@ -107,6 +111,7 @@
         ></iframe>
       </div>
     </div>
+    <div class="parallax"></div>
     <h2>
       Bio
     </h2>
@@ -115,25 +120,51 @@
       sandy soil of Encinitas, California. It’s a rad little beach town in San
       Diego, most famous for its great surf and fringe-religious communities.
       One of our main beaches, Swami’s, is named after Guru Paramahansa
-      Yogananda. His mediation garden is pretty dope.<br><br>From the mural of a
-      surfing Madonna to the statue we dubbed the Cardiff Kook, this spot
+      Yogananda. His mediation garden is pretty dope.<br /><br />From the mural
+      of a surfing Madonna to the statue we dubbed the Cardiff Kook, this spot
       inspired a lot about my music. As a wee pup, I played guitar around town
-      in garages. Eventually the cops said I needed to stop. Many many times.<br><br>
+      in garages. Eventually the cops said I needed to stop. Many many times.<br /><br />
       There aren’t many practice spaces around here, so the gang and I would
       break into churches after hours to jam with their gear. We gigged around
-      at schools and coffee shops until my band mates moved away for college.<br><br>I
+      at schools and coffee shops until my band mates moved away for college.<br /><br />I
       decided to learn to play drums and bass and production, so I could jam
       with myself. I pretty much just did that for the last five years. Blazing,
       surfing, writing, recording, missing my friends, and wrapping burritos
       (day job). I started digging some of the stuff I was making, but still
-      didn’t have a name for the project.<br><br>Then my girlfriend said these fateful
-      words, “Did you know Scooby Doo’s real name is Scoobert Doobert?” It
-      clicked. And better still, my name started to serve like a litmus test for
-      who would dig the music. As someone who has read this far, congrats, you
-      passed!<br><br>Welcome, amigo, to the Scoobertverse. I hope your stay is a
-      psychedelic kaleidoscope of good vibes, singalongs and nostalgic futurism.
-      Feel free to hit me up on IG, Reddit, or Twitter if you ever want to chat
-      or share memes.
-    </div>    
+      didn’t have a name for the project.<br /><br />Then my girlfriend said
+      these fateful words, “Did you know Scooby Doo’s real name is Scoobert
+      Doobert?” It clicked. And better still, my name started to serve like a
+      litmus test for who would dig the music. As someone who has read this far,
+      congrats, you passed!<br /><br />Welcome, amigo, to the Scoobertverse. I
+      hope your stay is a psychedelic kaleidoscope of good vibes, singalongs and
+      nostalgic futurism. Feel free to hit me up on IG, Reddit, or Twitter if
+      you ever want to chat or share memes.
+    </div>
+    <div class="parallax-small"></div>
+
+    <div class="footer">
+      © 2020 Scoobert Doobert
+    </div>
+
+    <svg>
+      <filter id="turbulence" x="0" y="0" width="110%" height="100%">
+        <feTurbulence
+          id="sea-filter"
+          numOctaves="2"
+          seed="2"
+          baseFrequency="0.001"
+        ></feTurbulence>
+        <feDisplacementMap scale="20" in="SourceGraphic"></feDisplacementMap>
+      </filter>
+      <animate
+        xlink:href="#sea-filter"
+        attributeName="baseFrequency"
+        dur="20s"
+        keyTimes="0;0.5;1"
+        values="0.02 0.04;0.04 0.06;0.02 0.04"
+        repeatCount="indefinite"
+      />
+    </svg>
   </body>
 </html>
+
