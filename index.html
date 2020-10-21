@@ -15,6 +15,11 @@
       href="https://fonts.googleapis.com/css2?family=Open+Sans+Condensed:ital,wght@0,300;0,700;1,300&display=swap"
       rel="stylesheet"
     />
+    
+     <link
+      href="https://fonts.googleapis.com/css2?family=Lakki+Reddy&display=swap"
+      rel="stylesheet"
+    />
 
     <!-- import the webpage's stylesheet -->
     <link rel="stylesheet" href="style.css" />
@@ -23,8 +28,9 @@
 <!--     <script src="/script.js" defer></script> -->
   </head>
   <body>
+    <div id="top"></div>
     <div class="head-wrapper">
-      <h1>Scoobert Doobert</h1>
+      <h1>Scoobert<br />Doobert</h1>
       <div class="navbar">
         <div class="link">
           <a
@@ -41,13 +47,10 @@
           >
         </div>
         <div class="link">
-          <a href="http://instagram.com/mr.scoobert_doobert/" target="_blank"
-            >Instagram</a
-          >
-        </div>
-        <div class="link">
-          <a href="https://scoobertdoobert.threadless.com/" target="_blank"
-            >Merch Shop</a
+          <a
+            href="https://geo.music.apple.com/us/artist/scoobert-doobert/1240946356?mt=1&app=music"
+            target="_blank"
+            >Apple Music</a
           >
         </div>
         <div class="link">
@@ -56,9 +59,12 @@
           >
         </div>
         <div class="link">
-          <a
-            href="https://twitter.com/scoobert_doobie"
-            target="_blank"
+          <a href="http://instagram.com/mr.scoobert_doobert/" target="_blank"
+            >Instagram</a
+          >
+        </div>
+        <div class="link">
+          <a href="https://twitter.com/scoobert_doobie" target="_blank"
             >Twitter</a
           >
         </div>
@@ -70,10 +76,8 @@
           >
         </div>
         <div class="link">
-          <a
-            href="https://geo.music.apple.com/us/artist/scoobert-doobert/1240946356?mt=1&app=music"
-            target="_blank"
-            >Apple Music</a
+          <a href="https://scoobertdoobert.threadless.com/" target="_blank"
+            >Merch Shop</a
           >
         </div>
       </div>
@@ -146,51 +150,50 @@
       litmus test for who would dig the music. As someone who has read this far,
       congrats, you passed!<br /><br />Welcome, amigo, to the Scoobertverse. I
       hope your stay is a psychedelic kaleidoscope of good vibes, singalongs and
-      nostalgic futurism. Feel free to hit me up on <a href="http://instagram.com/mr.scoobert_doobert/" target="_blank">IG</a>, <a href="https://www.reddit.com/user/mrscoobertdoobert" target="_blank">Reddit</a>, or <a href="https://twitter.com/scoobert_doobie" target="_blank">Twitter</a> if
-      you ever want to chat or share memes.
+      nostalgic futurism. Feel free to hit me up on
+      <a href="http://instagram.com/mr.scoobert_doobert/" target="_blank">IG</a
+      >,
+      <a href="https://www.reddit.com/user/mrscoobertdoobert" target="_blank"
+        >Reddit</a
+      >, or
+      <a href="https://twitter.com/scoobert_doobie" target="_blank">Twitter</a>
+      if you ever want to chat or share memes.
     </div>
 
     <div class="footer">
-<!--       <div class="navbar">
-        <div class="link">
-          <a
-            href="https://open.spotify.com/artist/5zKkCi9E4L8p6aRiCSJVTn?si=2PDEget3ShOTXeS5ZC9JwQ"
-            target="_blank"
-            >Spotify</a
-          >
-        </div>
-        <div class="link">
-          <a
-            href="https://www.youtube.com/channel/UCUyWFR-faejrl4Ss5gkt5GA/featured?sub_confirmation=1"
-            target="_blank"
-            >YouTube</a
-          >
-        </div>
-        <div class="link">
-          <a href="http://instagram.com/mr.scoobert_doobert/" target="_blank"
-            >Instagram</a
-          >
-        </div>
-        <div class="link">
-          <a href="https://scoobertdoobert.threadless.com/" target="_blank"
-            >Merch Shop</a
-          >
-        </div>
-        <div class="link">
-          <a href="http://soundcloud.com/mrscoobertdoobert" target="_blank"
-            >SoundCloud</a
-          >
-        </div>
-        <div class="link">
-          <a
-            href="https://geo.music.apple.com/us/artist/scoobert-doobert/1240946356?mt=1&app=music"
-            target="_blank"
-            >Apple Music</a
-          >
-        </div>
-      </div> -->
+      <div onclick="topFunction()" id="scroll-up">
+        <h4>^<br />scroll to top</h4>
+      </div>
+
       © 2020 Scoobert Doobert
     </div>
+
+    <script>
+      function topFunction() {
+        document.body.scrollTop = 0;
+        document.documentElement.scrollTop = 0;
+      }
+    </script>
+
+    <svg>
+      <filter id="turbulence" x="0" y="0" width="100%" height="100%">
+        <feTurbulence
+          id="sea-filter"
+          numOctaves="2"
+          seed="2"
+          baseFrequency="0.01"
+        ></feTurbulence>
+        <feDisplacementMap scale="6" in="SourceGraphic"></feDisplacementMap>
+      </filter>
+      <animate
+        xlink:href="#sea-filter"
+        attributeName="baseFrequency"
+        dur="15s"
+        keyTimes="0;0.5;1"
+        values="0.02 0.04;0.04 0.06;0.02 0.06"
+        repeatCount="indefinite"
+      />
+    </svg>
   </body>
 </html>
 
