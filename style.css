@@ -227,6 +227,36 @@ svg {
   display: none;
 }
 
+#beformer {
+  font-family: "Beth Ellen", cursive;
+  background-color: black;
+  font-size: 14px;
+  /*   width: 4em; */
+  height: 2.5em;
+  text-align: center;
+  position: fixed;
+  padding: 0 1em 1em 1em;
+  top: 10px;
+  right: -20px;
+  opacity: 0.7;
+  border-radius: 40px;
+  transform: rotateZ(40deg);
+  transition: background-color 0.1s linear;
+}
+
+#beformer a {
+  transition: color 0.1s linear;
+}
+
+#beformer:hover {
+  background-color: white;
+}
+
+#beformer:hover a {
+  color: black;
+}
+
+
 
 /* FOR DESKTOP */
 
