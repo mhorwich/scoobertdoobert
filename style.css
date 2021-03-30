@@ -229,18 +229,18 @@ svg {
 
 #beformer {
   font-family: "Beth Ellen", cursive;
-  background-color: black;
   font-size: 14px;
-  /*   width: 4em; */
+  width: 8em;
   height: 2.5em;
   text-align: center;
-  position: fixed;
-  padding: 0 1em 1em 1em;
+  padding: 1em;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 10px;
+  line-height: 50%;
   top: 10px;
   right: -20px;
-  opacity: 0.7;
   border-radius: 40px;
-  transform: rotateZ(40deg);
   transition: background-color 0.1s linear;
 }
 
@@ -248,14 +248,15 @@ svg {
   transition: color 0.1s linear;
 }
 
-#beformer:hover {
-  background-color: white;
-}
-
 #beformer:hover a {
   color: black;
 }
 
+#records{
+  transform: scale(-1, 1);
+  padding-bottom: 1em;
+  margin-bottom: 1em;
+}
 
 
 /* FOR DESKTOP */
