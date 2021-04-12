@@ -229,11 +229,12 @@ svg {
 }
 
 #beformer {
+  text-align: left;
   font-family: "Beth Ellen", cursive;
   font-size: 14px;
   width: 8em;
   height: 2.5em;
-  text-align: right;
+/*   text-align: center; */
   padding: 1em;
   margin-left: auto;
   margin-right: auto;
@@ -254,11 +255,13 @@ svg {
 }
 
 #records{
+/*     text-align: right; */
   transform: scale(-1, 1);
   padding-bottom: 1em;
   margin-bottom: 1em;
-  margin-right: 0.5em;
+  margin-right: .5em;
 }
+
 
 
 /* FOR DESKTOP */
