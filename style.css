@@ -7,7 +7,7 @@ body {
   background-image: url("scoob new bg.jpg");
 
   background-attachment: fixed;
-  background-position: top;
+  background-position-y: 25%;
   background-size: cover;
   background-repeat: no-repeat;
   cursor: url("cursor.cur"), auto;
