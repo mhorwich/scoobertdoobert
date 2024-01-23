@@ -104,7 +104,7 @@ h3 {
   animation-name: pulse;
   animation-duration: 10s;
   animation-iteration-count: infinite;
-  filter: url("#turbulence");
+/*   filter: url("#turbulence"); */
   box-shadow: 1vw 1vh;
 }
 
