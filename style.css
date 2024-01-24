@@ -66,7 +66,7 @@ h2 {
   color: white;
   text-align: center;
   background-color: black;
-  font-size: 9vw;
+  font-size: 6vw;
   mix-blend-mode: multiply;
 }
 
@@ -75,7 +75,7 @@ h3 {
   margin-top: 0;
   margin-bottom: 0;
   font-weight: bold;
-  font-size: 4vw;
+  font-size: 3vw;
   text-transform: uppercase;
   max-width: 90%;
   margin-left: auto;
