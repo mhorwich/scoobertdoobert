@@ -41,9 +41,12 @@
 <!--     <script src="/script.js" defer></script> -->
   </head>
   <body>
-<video autoplay muted loop id="myVideo">
+
+    
+<video autoplay muted loop playsinline disablepictureinpicture preload="auto" id="myVideo">
   <source src="ScoobertDoobert_v02.mp4" type="video/mp4">
 </video>
+    
 <script>
   var bgVid = document.getElementById("myVideo");
   bgVid.muted = true;
