@@ -33,7 +33,7 @@ video{
   background-image: url("ScoobertDoobert_v02.mp4");
   background-color: transparent;
   position: absolute;
-  z-index: 1;
+  z-index: -1;
 
 }
 
