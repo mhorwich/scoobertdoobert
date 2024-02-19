@@ -19,12 +19,22 @@ html {
   height: 100%;
 }
 
+video{
+  position: absolute;
+  z-index: -1;
+  height: 100%;
+}
+
 #myVideo{
   max-width: 100%;
   position: fixed;
   top: 0;
   left: 0;
-  z-index: -1;
+  background-image: url("ScoobertDoobert_v02.mp4");
+  background-color: transparent;
+  position: absolute;
+  z-index: 1;
+
 }
 
 a {
