@@ -37,6 +37,7 @@
     <!-- import the webpage's stylesheet -->
     <link rel="stylesheet" href="style.css" />
 
+<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.7.1/jquery.min.js" integrity="sha512-v2CJ7UaYy4JwqLDIrZUI/4hqeoQieOmAZNXBeQyjo21dadnwR+8ZaIJVT8EE2iyI61OV8e6M8PP2/4hpQINQ/g==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
     <!-- import the webpage's javascript file -->
 <!--     <script src="/script.js" defer></script> -->
   </head>
@@ -141,8 +142,12 @@
   </script>
 
   <div class="bio">
-    <h4>lofi hifi wifi</h4>
-Born on the internet (and raised in San Diego, California), Scoobert Doobert is a multi-instrumentalist, producer-engineer, burrito-connoisseur and abundant songwriter.
+    <h4>lofi hifi wifi
+      <a href="scoobertdoobert.pizza/savesandiego"><span id="saveSD"></span>
+</a>
+
+      </h4>
+Born on the internet (and raised in <span id="SSD" onclick="SSD()">San Diego, California</span>), Scoobert Doobert is a multi-instrumentalist, producer-engineer, burrito-connoisseur and abundant songwriter.
 <br><br>
 His first break to hone his music craft came during a years-long stint touring with The Doobie Brothers as a guitarist and vocalist, and opening for Gregg Allman playing with Lara Johnston. He then started producing with her after getting off the road, continuing to turn his attention towards production, working with artists like Tamtam.
 <br><br>
@@ -154,6 +159,12 @@ Mr. Doobert likewise is a frequent collaborator, recently working with Victor Ma
 <br><br>
 And check out his Love Music More podcast, new episodes out Tuesdays.
   </div>
+
+  <script>
+    function SSD(){
+      $("#saveSD").text("👾");
+    }
+  </script>
 </div>
 
     <div>
