@@ -109,10 +109,11 @@ h4{
 .link {
   text-align: center;
   padding: .5vh;
-  margin: .25vw .25vh;
+  margin: .5vw .5vh;
   flex: 25%;
-  transform: scale(.75);
-  border-radius: 50%;
+  max-width: 25%;
+  /* transform: scale(.25); */
+  /* border-radius: 50%; */
   text-transform: uppercase;
   display: inline-block;
   animation-name: pulse;
