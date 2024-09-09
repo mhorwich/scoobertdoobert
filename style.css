@@ -1,25 +1,20 @@
 /* CSS files add styling rules to your content */
-@font-face {
-  font-family: "Maru-Black";
-  src: url("GT-Maru-Black-Trial.woff2") format("woff2");
-}
-
-@font-face {
-  font-family: "Maru-Light";
-  src: url("GT-Maru-Light-Trial.woff2") format("woff2");
-}
 
 
 
 body {
-  font-family: "Maru-Light";
+font-family: "azo-sans-web", sans-serif;
+font-weight: 400;
+font-style: normal;
+  font-size: 1em;
   margin: 0;
   background-image: linear-gradient(lightblue, skyblue);
-  background-image: url("scoob new bg.jpg");
+/*   background-image: url("scoob new bg.jpg"); */
   background-attachment: fixed;
   background-position-x: 50%;
   background-position-y: 25%;
   background-size: cover;
+  line-height: 1.2em;
   /* background-repeat: no-repeat; */
   cursor: url("cursor.cur"), auto;
 }
@@ -60,7 +55,7 @@ html {
 .close {
     color: black;
     float: right;
-    font-size: 28px;
+    font-size: 1em;
     font-weight: bold;
 }
 
@@ -91,21 +86,24 @@ video{
 
 
 a {
-  font-family: "Maru-Light";
-  color: white;
+font-family: "azo-sans-web", sans-serif;
+font-weight: 400;
+font-style: normal;
+color: white;
 }
 
 
 h1 {
-  font-family: "Maru-Black";
+font-family: "azo-sans-uber", sans-serif;
+font-weight: 400;
+font-style: normal;
   max-width: 90%;
   margin-left: auto;
   margin-right: auto;
-  /* margin-top: 60px; */
   margin-bottom: 0;
   font-style: bold;
   text-transform: uppercase;
-  font-size: 15vw;
+  font-size: 8vw;
   color: rgba(0, 0, 0, 0.8);
   text-align: left;
   line-height: 100%;
@@ -113,24 +111,27 @@ h1 {
 }
 
 h2 {
-  font-family: "Maru-Black";
+font-family: "azo-sans-uber", sans-serif;
+font-weight: 400;
+font-style: normal;
   text-transform: uppercase;
   margin-left: auto;
   margin-right: auto;
   color: white;
   text-align: center;
-  font-size: 5vw;
+  font-size: 4vw;
   margin-top: 0;
   margin-bottom: 0;
 }
 
 h3 {
-  font-family: "Maru-Black";
-  color: black;
+font-family: "azo-sans-uber", sans-serif;
+font-weight: 400;
+font-style: normal;  color: black;
   margin-top: 0;
   margin-bottom: 0;
   font-weight: bold;
-  font-size: 3vw;
+  font-size: 2vw;
   text-transform: uppercase;
   max-width: 90%;
   margin-left: auto;
@@ -139,8 +140,10 @@ h3 {
 }
 
 h4{
-  font-family: "Maru-Black";
-  font-size: 4vw;
+font-family: "azo-sans-uber", sans-serif;
+font-weight: 400;
+font-style: normal;
+  font-size: 2vw;
 }
 
 .navbar {
@@ -237,6 +240,7 @@ h4{
     rgba(50, 110, 220, 0.5),
     rgba(60, 140, 250, 0.5)
   );
+  font-size: .8em;
   text-align: justify;
   display: block;
   margin: 5%;
