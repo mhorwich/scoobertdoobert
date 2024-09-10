@@ -46,8 +46,7 @@ html {
 }
 
 .modal-content img {
-  max-height: 50%;
-  overflow: hidden; /* Enable scroll if needed */
+  max-height: 100%;
 
 }
 
