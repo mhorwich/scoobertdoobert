@@ -9,7 +9,7 @@ font-style: normal;
   font-size: 1em;
   margin: 0;
   background-image: linear-gradient(lightblue, skyblue);
-/*   background-image: url("scoob new bg.jpg"); */
+  background-image: url("scoob new bg.jpg");
   background-attachment: fixed;
   background-position-x: 50%;
   background-position-y: 25%;
